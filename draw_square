@@ -1,0 +1,10 @@
+import turtle
+jack = turtle.Turtle()
+jack.color("yellow")
+
+def draw_square(sides, forward, angle):
+    for sides in range(sides):
+        jack.forward(forward)
+        jack.right(angle)
+        
+draw_square(4,100,90)
