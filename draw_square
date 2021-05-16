@@ -8,3 +8,13 @@ def draw_square(sides, forward, angle):
         jack.right(angle)
         
 draw_square(4,100,90)
+
+jack.penup()
+jack.back(150)
+jack.pendown()
+
+draw_square(4,100,90)
+jack.forward(100)
+draw_square(4,100,90)
+jack.forward(100)
+draw_square(4,100,90)
